@@ -10,9 +10,4 @@ contract FooReader is Foo {
             sum += data[i];
         }
     }
-
-    function getStringAndSum() public view returns(string memory, uint256) {
-        return (str, getSum());
-    }
-    
 }
